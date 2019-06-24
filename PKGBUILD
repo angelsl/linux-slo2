@@ -5,7 +5,7 @@
 
 pkgbase=linux-slo2
 _pkgver=5.1.14
-_commithash=08df302211f62063d4734aa8a1b5e91c356cf7c9
+_commithash=f2711055d227196aae5c05097b853d0848c21d75
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
