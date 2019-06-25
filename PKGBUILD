@@ -9,7 +9,7 @@ _commithash=c1aace817034c74e7bc3b8819eeeefbdc4c938a4
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
-pkgrel=1
+pkgrel=2
 pkgdesc="The ${pkgbase/linux/Linux} kernel and modules"
 depends=(coreutils linux-firmware kmod mkinitcpio)
 optdepends=('crda: to set the correct wireless channels of your country'
@@ -29,7 +29,7 @@ source=(config  # the main kernel config files
         90-linux.hook  # pacman hook for initramfs regeneration
         linux.preset   # standard config files for mkinitcpio ramdisk
 )
-sha256sums=('d594f2396f5aa1a1f56f91e755cc1787758b600496b9339cd0be90979622885f'
+sha256sums=('53d6e474313a9d2dfd678d66b1761bb8d4cb051a3b73091b5a88e47f2d0f9296'
             'ae2e95db94ef7176207c690224169594d49445e04249d2499e9d2fbc117a0b21'
             '71df1b18a3885b151a3b9d926a91936da2acc90d5e27f1ad326745779cd3759d'
             '6837b3e2152f142f3fff595c6cbd03423f6e7b8d525aac8ae3eb3b58392bd255')
