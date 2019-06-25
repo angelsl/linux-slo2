@@ -76,7 +76,7 @@ package() {
   KARCH=arm64
 
   # get kernel version
-  _kernver="$(<version)"
+  _kernver="$(<../version)"
   _basekernel=${_kernver%%-*}
   _basekernel=${_basekernel%.*}
 
