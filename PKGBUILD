@@ -4,12 +4,12 @@
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
 pkgbase=linux-slo2
-_pkgver=5.1.15
-_commithash=c1aace817034c74e7bc3b8819eeeefbdc4c938a4
+_pkgver=5.1.16
+_commithash=1cf1ce4228b3a6d31e53174dd853fd17d12c48b4
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
-pkgrel=2
+pkgrel=1
 pkgdesc="The ${pkgbase/linux/Linux} kernel and modules"
 depends=(coreutils linux-firmware kmod mkinitcpio)
 optdepends=('crda: to set the correct wireless channels of your country'
@@ -29,7 +29,7 @@ source=(config  # the main kernel config files
         90-linux.hook  # pacman hook for initramfs regeneration
         linux.preset   # standard config files for mkinitcpio ramdisk
 )
-sha256sums=('53d6e474313a9d2dfd678d66b1761bb8d4cb051a3b73091b5a88e47f2d0f9296'
+sha256sums=('68c334994cbc45f611945476b34c0c01be4346d7a20518e8bd5889c7ff73d617'
             'ae2e95db94ef7176207c690224169594d49445e04249d2499e9d2fbc117a0b21'
             '71df1b18a3885b151a3b9d926a91936da2acc90d5e27f1ad326745779cd3759d'
             '6837b3e2152f142f3fff595c6cbd03423f6e7b8d525aac8ae3eb3b58392bd255')
