@@ -4,8 +4,8 @@
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
 pkgbase=linux-slo2
-_pkgver=5.4.6
-_commithash=2601ac5da587eb4323843643b5ecb622dadd8bc0
+_pkgver=5.4.21
+_commithash=c00d38d5a0650ef98ade148bf0022f631c5383ad
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
@@ -42,7 +42,8 @@ _makecross='ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-'
 prepare() {
   mkdir -p $_srcname && cd $_srcname
   git init
-  git fetch --depth=1 https://github.com/angelsl/linux.git $_commithash
+  # git fetch --depth=1 https://github.com/angelsl/linux.git $_commithash
+  git fetch --depth=1 /home/angelsl/Development/Kernel/linux $_commithash
   git checkout $_commithash
   git clean -xfd
 
