@@ -4,8 +4,8 @@
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
 pkgbase=linux-slo2
-_pkgver=5.9.8
-_commithash=969d5924dc8f2d45649282b5642842ec8df4fd74
+_pkgver=5.9.11
+_commithash=abae44a05093ea8a729edd4e5905b6964d96df0d
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
@@ -29,7 +29,7 @@ source=(config  # the main kernel config files
         90-linux.hook  # pacman hook for initramfs regeneration
         linux.preset   # standard config files for mkinitcpio ramdisk
 )
-sha256sums=('6339335527f7c396e7f25641fec174420effc5efa9c419da3053a3bf4d692449'
+sha256sums=('c0608a3d51f5d92c394163c82e1738db387b54d2b280bea2561625538afc941e'
             'ae2e95db94ef7176207c690224169594d49445e04249d2499e9d2fbc117a0b21'
             '71df1b18a3885b151a3b9d926a91936da2acc90d5e27f1ad326745779cd3759d'
             '256e97d97242d1addff8e7ae2df2def64fb8b588d7f653ca2497377d8e757b6d')
