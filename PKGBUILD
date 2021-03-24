@@ -4,8 +4,8 @@
 # Contributor: Thomas Baechler <thomas@archlinux.org>
 
 pkgbase=linux-slo2
-_pkgver=5.10.13
-_commithash=b9f074393051c68c6a9796f8d5d9e46d5e704552
+_pkgver=5.11.9
+_commithash=a6cc99ee03cb69afd8aac65529ba486e90bf35d9
 _srcname=$pkgbase
 pkgname=$pkgbase
 pkgver=${_pkgver}
