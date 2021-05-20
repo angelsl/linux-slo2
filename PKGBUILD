@@ -42,8 +42,8 @@ _makecross='ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-'
 prepare() {
   mkdir -p $_srcname && cd $_srcname
   git init
-  # git fetch --depth=1 https://github.com/angelsl/linux.git $_commithash
-  git fetch --depth=1 /home/angelsl/Development/Kernel/linux $_commithash
+  git fetch --depth=1 https://github.com/angelsl/linux.git $_commithash
+  # git fetch --depth=1 /home/angelsl/Development/Kernel/linux $_commithash
   git checkout $_commithash
   git clean -xfd
 
